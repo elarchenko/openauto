@@ -1493,11 +1493,8 @@ border: no-border;</string>
                   </sizepolicy>
                  </property>
                  <property name="styleSheet">
-                  <string notr="true">background-color: rgba(48, 140, 198, 0.5);
+                  <string notr="true">background-color: transparent;
 color: rgb(255, 255, 255);
-border-top-left-radius: 4px;
-border-top-right-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
 outline: none;
 border-bottom: 0px;</string>
                  </property>
@@ -1521,9 +1518,9 @@ border-bottom: 0px;</string>
                   </font>
                  </property>
                  <property name="styleSheet">
-                  <string notr="true">background-color: rgba(48, 140, 198, 0.5);
+                  <string notr="true">background-color: transparent;
 color: rgb(255, 255, 255);
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 border-top: 0px;
 border-bottom: 0px;
 </string>
@@ -1562,11 +1559,8 @@ border-bottom: 0px;
                   </font>
                  </property>
                  <property name="styleSheet">
-                  <string notr="true">background-color: rgba(48, 140, 198, 0.5);
+                  <string notr="true">background-color: transparent;
 color: rgb(255, 255, 255);
-border-bottom-left-radius: 4px;
-border-bottom-right-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
 outline: none;
 border-top: 0px;</string>
                  </property>
@@ -1595,19 +1589,19 @@ border-top: 0px;</string>
                 <bold>true</bold>
                </font>
               </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(48, 140, 198, 0.5);
+               <string notr="true">background-color: transparent;
 color: rgb(255, 255, 255);
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
               </property>
               <property name="text">
                <string>No
 USB Device</string>
-              </property>
-              <property name="focusPolicy">
-                <enum>Qt::NoFocus</enum>
               </property>
              </widget>
             </item>
@@ -1644,9 +1638,9 @@ USB Device</string>
                </sizepolicy>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(252, 175, 62, 0.5);
+               <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 color: rgb(255, 255, 255);
                </string>
               </property>
@@ -1680,10 +1674,13 @@ color: rgb(255, 255, 255);
                 <bold>true</bold>
                </font>
               </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(252, 175, 62, 0.5);
+               <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 color: rgb(255, 255, 255);
 outline: none;</string>
               </property>
@@ -1691,9 +1688,6 @@ outline: none;</string>
                <string>No
 WiFi Clients</string>
               </property>
-              <property name="focusPolicy">
-                <enum>Qt::NoFocus</enum>
-              </property>              
              </widget>
             </item>
            </layout>
@@ -1714,9 +1708,9 @@ WiFi Clients</string>
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true">background: rgba(252, 233, 79, 0.5);
+            <string notr="true">background: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
            </property>
            <property name="text">
@@ -1753,9 +1747,9 @@ outline: none;</string>
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color: rgba(114, 159, 207, 0.5);
+            <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
            </property>
            <property name="text">
@@ -1786,9 +1780,9 @@ outline: none;</string>
             </sizepolicy>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color: rgba(100, 62, 4, 0.5);
+            <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
            </property>
            <property name="text">
@@ -1816,9 +1810,9 @@ outline: none;</string>
             </sizepolicy>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color: rgba(64, 191, 191, 0.5);
+            <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
            </property>
            <property name="text">
@@ -1846,9 +1840,9 @@ outline: none;</string>
             </sizepolicy>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color: rgba(85, 87, 83, 0.5);
+            <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
            </property>
            <property name="text">
@@ -2148,10 +2142,10 @@ outline: none;</string>
                </sizepolicy>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(15, 54, 5, 0.5);
+               <string notr="true">background-color: transparent;
 color: rgb(255, 255, 255);
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;
 </string>
               </property>
@@ -2180,9 +2174,9 @@ outline: none;
                </sizepolicy>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(138, 226, 52, 0.5);
+               <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
               </property>
               <property name="text">
@@ -2219,10 +2213,10 @@ outline: none;</string>
                </font>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(78, 154, 6, 0.5);
+               <string notr="true">background-color: transparent;
 color: rgb(255, 255, 255);
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
               </property>
               <property name="text">
@@ -2250,9 +2244,9 @@ outline: none;</string>
                </sizepolicy>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(245, 121, 0, 0.5);
+               <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
               </property>
               <property name="text">
@@ -2280,9 +2274,9 @@ outline: none;</string>
                </sizepolicy>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(237, 164, 255, 0.5);
+               <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
               </property>
               <property name="text">
@@ -2310,9 +2304,9 @@ outline: none;</string>
                </sizepolicy>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(164, 0, 0, 0.5);
+               <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
               </property>
               <property name="text">
@@ -2364,9 +2358,9 @@ outline: none;</string>
                </sizepolicy>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(239, 41, 41, 0.5);
+               <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
               </property>
               <property name="text">
@@ -2394,9 +2388,9 @@ outline: none;</string>
                </sizepolicy>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(252, 175, 62, 0.5);
+               <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
               </property>
               <property name="text">
@@ -2424,9 +2418,9 @@ outline: none;</string>
                </sizepolicy>
               </property>
               <property name="styleSheet">
-               <string notr="true">background-color: rgba(32, 74, 135, 0.5);
+               <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
               </property>
               <property name="text">
@@ -2489,6 +2483,9 @@ outline: none;</string>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background: qlineargradient(spread:pad, x1:0.506, y1:1, x2:0.488682, y2:0, stop:0.460227 rgba(0, 0, 63, 255), stop:1 rgba(0, 0, 118, 255));</string>
+             </property>
              <layout class="QVBoxLayout" name="verticalLayout_7">
               <property name="leftMargin">
                <number>10</number>
@@ -2523,9 +2520,8 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -2565,9 +2561,8 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -2607,9 +2602,8 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -2649,9 +2643,8 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -2691,9 +2684,8 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -2733,9 +2725,8 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -2764,6 +2755,9 @@ outline: none;</string>
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background: qlineargradient(spread:pad, x1:0.506, y1:1, x2:0.488682, y2:0, stop:0.460227 rgba(0, 0, 63, 255), stop:1 rgba(0, 0, 118, 255));</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_9">
               <property name="leftMargin">
@@ -2799,9 +2793,9 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px
                   </string>
                 </property>
                 <property name="text">
@@ -2841,9 +2835,9 @@ border: 2px solid rgba(255,255,255,0.5);
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -2883,9 +2877,9 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -2923,7 +2917,8 @@ outline: none;</string>
               </font>
              </property>
              <property name="styleSheet">
-              <string notr="true">color: rgb(255, 255, 255);</string>
+              <string notr="true">color: rgb(255, 255, 255);
+background: qlineargradient(spread:pad, x1:0.506, y1:1, x2:0.488682, y2:0, stop:0.460227 rgba(0, 0, 63, 255), stop:1 rgba(0, 0, 118, 255));</string>
              </property>
              <property name="text">
               <string>12:00:00</string>
@@ -2941,6 +2936,9 @@ outline: none;</string>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
+             <property name="styleSheet">
+              <string notr="true">background: qlineargradient(spread:pad, x1:0.506, y1:1, x2:0.488682, y2:0, stop:0.460227 rgba(0, 0, 63, 255), stop:1 rgba(0, 0, 118, 255));</string>
+             </property>
              <property name="text">
               <string/>
              </property>
@@ -2953,6 +2951,9 @@ outline: none;</string>
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background: qlineargradient(spread:pad, x1:0.506, y1:1, x2:0.488682, y2:0, stop:0.460227 rgba(0, 0, 63, 255), stop:1 rgba(0, 0, 118, 255));</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_6">
               <property name="topMargin">
@@ -3006,9 +3007,9 @@ outline: none;</string>
                     </size>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                    <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
                    </property>
                    <property name="text">
@@ -3054,10 +3055,10 @@ outline: none;</string>
                     </font>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">background-color: rgba(136, 138, 133, 0.5);
-color: rgb(255, 255, 255);
+                    <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
                    </property>
                    <property name="text">
@@ -3112,9 +3113,9 @@ Device</string>
                     </size>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                    <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
                    </property>
                    <property name="text">
@@ -3160,10 +3161,10 @@ outline: none;</string>
                     </font>
                    </property>
                    <property name="styleSheet">
-                    <string notr="true">background-color: rgba(136, 138, 133, 0.5);
-color: rgb(255, 255, 255);
+                    <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
                    </property>
                    <property name="text">
@@ -3197,9 +3198,9 @@ Device</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -3239,9 +3240,9 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -3281,9 +3282,9 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -3323,9 +3324,9 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -3365,9 +3366,9 @@ outline: none;</string>
                  </size>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">background-color: rgba(136, 138, 133, 0.5);
+                 <string notr="true">background-color: transparent;
 border-radius: 4px;
-border: 2px solid rgba(255,255,255,0.5);
+border: 2px;
 outline: none;</string>
                 </property>
                 <property name="text">
@@ -5575,8 +5576,8 @@ background-color: #6d6d6d;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}
-QSlider::handle:horizontal { background: rgb(64, 191, 191); height: 52px; width: 52px; margin: 0 0;};
+          <string notr="true">QSlider::groove:horizontal { background: transparent; height: 32px}
+QSlider::handle:horizontal { background: qlineargradient(spread:pad, x1:0.505682, y1:0, x2:0.506, y2:1, stop:0 rgba(46, 214, 214, 255), stop:1 rgba(144, 255, 251, 255)); height: 52px; width: 52px; margin: 0 0;  border-radius: 10px;};
 outline: none;</string>
          </property>
          <property name="maximum">
@@ -5615,7 +5616,7 @@ outline: none;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">color: rgb(255, 255, 255);
-background-color: #6d6d6d;</string>
+background-color:transparent;</string>
          </property>
          <property name="text">
           <string>-</string>
@@ -5673,8 +5674,8 @@ background-color: #6d6d6d;</string>
           <enum>Qt::LeftToRight</enum>
          </property>
          <property name="styleSheet">
-          <string notr="true">QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}
-QSlider::handle:horizontal { background: rgb(64, 191, 191); height: 52px; width: 52px; margin: 0 0;};
+          <string notr="true">QSlider::groove:horizontal { background: transparent; height: 32px}
+QSlider::handle:horizontal { background: qlineargradient(spread:pad, x1:0.505682, y1:0, x2:0.506, y2:1, stop:0 rgba(46, 214, 214, 255), stop:1 rgba(144, 255, 251, 255)); height: 52px; width: 52px; margin: 0 0;  border-radius: 10px;};
 outline: none;</string>
          </property>
          <property name="maximum">
@@ -5716,7 +5717,7 @@ outline: none;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">color: rgb(255, 255, 255);
-background-color: #6d6d6d;</string>
+background-color: transparent;</string>
          </property>
          <property name="text">
           <string>100%</string>
@@ -5783,8 +5784,8 @@ background-color: #6d6d6d;</string>
           <string/>
          </property>
          <property name="styleSheet">
-          <string notr="true">QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}
-QSlider::handle:horizontal { background: rgb(245, 121, 0); height: 52px; width: 52px; margin: 0 0;};
+          <string notr="true">QSlider::groove:horizontal { background: transparent; height: 32px}
+QSlider::handle:horizontal { background: qlineargradient(spread:pad, x1:0.505682, y1:0, x2:0.506, y2:1, stop:0 rgba(238, 238, 238, 255), stop:1 rgba(255, 255, 255, 255)); height: 52px; width: 52px; margin: 0 0;  border-radius: 10px;};
 outline: none;</string>
          </property>
          <property name="minimum">
@@ -5835,7 +5836,7 @@ outline: none;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">color: rgb(255, 255, 255);
-background-color: #6d6d6d;</string>
+background-color: transparent;</string>
          </property>
          <property name="text">
           <string>-</string>
