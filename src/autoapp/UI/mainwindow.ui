@@ -31,7 +31,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">color: rgb(0, 0, 0);</string>
+   <string notr="true">background: qlineargradient(spread:pad, x1:0.506, y1:1, x2:0.488682, y2:0, stop:0.460227 rgba(0, 0, 63, 255), stop:1 rgba(0, 0, 118, 255));</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <property name="enabled">

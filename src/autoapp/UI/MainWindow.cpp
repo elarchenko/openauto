@@ -1012,15 +1012,15 @@ void f1x::openauto::autoapp::ui::MainWindow::toggleGUI()
 
 void f1x::openauto::autoapp::ui::MainWindow::updateBG()
 {
-    if (this->date_text == "12/24") {
+    /*if (this->date_text == "12/24") {
         this->setStyleSheet("QMainWindow { background: url(:/wallpaper-christmas.png); background-repeat: no-repeat; background-position: center; }");
         this->holidaybg = true;
     }
     else if (this->date_text == "12/31") {
         this->setStyleSheet("QMainWindow { background: url(:/wallpaper-firework.png); background-repeat: no-repeat; background-position: center; }");
         this->holidaybg = true;
-    }
-    if (!this->nightModeEnabled) {
+    }*/
+    /*if (!this->nightModeEnabled) {
         if (ui_->mediaWidget->isVisible() == true) {
             if (this->wallpaperEQFileExists) {
                 this->setStyleSheet("QMainWindow { background: url(wallpaper-eq.png); background-repeat: no-repeat; background-position: center; }");
@@ -1064,7 +1064,7 @@ void f1x::openauto::autoapp::ui::MainWindow::updateBG()
                 }
             }
         }
-    }
+    }*/
 }
 
 void f1x::openauto::autoapp::ui::MainWindow::createDebuglog()
