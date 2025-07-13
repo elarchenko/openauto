@@ -5520,12 +5520,24 @@ outline: none;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(164, 0, 0);
+          <string notr="true">background-color: transparent;
+border-radius: 4px;
+outline: none;
           </string>
          </property>
          <property name="text">
-          <string>Muted</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normalon>:/muted-hot.png</normalon>
+          </iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>35</width>
+           <height>35</height>
+          </size>
          </property>
         </widget>
        </item>
@@ -5550,11 +5562,23 @@ background-color: rgb(164, 0, 0);
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">color: rgb(255, 255, 255);
-background-color: #6d6d6d;</string>
+          <string notr="true">background-color: transparent;
+border-radius: 4px;
+outline: none;</string>
          </property>
          <property name="text">
-          <string>Mute</string>
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normalon>:/volume-hot.png</normalon>
+          </iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>35</width>
+           <height>35</height>
+          </size>
          </property>
          <property name="flat">
           <bool>false</bool>
@@ -5577,7 +5601,7 @@ background-color: #6d6d6d;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">QSlider::groove:horizontal { background: transparent; height: 32px}
-QSlider::handle:horizontal { background: qlineargradient(spread:pad, x1:0.505682, y1:0, x2:0.506, y2:1, stop:0 rgba(46, 214, 214, 255), stop:1 rgba(144, 255, 251, 255)); height: 52px; width: 52px; margin: 0 0;  border-radius: 10px;};
+QSlider::handle:horizontal { background: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.511, y2:1, stop:0.301136 rgba(0, 212, 212, 255), stop:1 rgba(255, 255, 255, 255)); height: 52px; width: 52px; margin: 0 0;  border-radius: 10px;};
 outline: none;</string>
          </property>
          <property name="maximum">
@@ -5675,7 +5699,7 @@ background-color:transparent;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">QSlider::groove:horizontal { background: transparent; height: 32px}
-QSlider::handle:horizontal { background: qlineargradient(spread:pad, x1:0.505682, y1:0, x2:0.506, y2:1, stop:0 rgba(46, 214, 214, 255), stop:1 rgba(144, 255, 251, 255)); height: 52px; width: 52px; margin: 0 0;  border-radius: 10px;};
+QSlider::handle:horizontal { background: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.511, y2:1, stop:0.301136 rgba(0, 212, 212, 255), stop:1 rgba(255, 255, 255, 255)); height: 52px; width: 52px; margin: 0 0;  border-radius: 10px;};
 outline: none;</string>
          </property>
          <property name="maximum">
